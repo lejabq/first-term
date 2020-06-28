@@ -10,6 +10,7 @@ big_integer::big_integer()
 
 big_integer::big_integer(big_integer const& other)
 {
+
     mpz_init_set(mpz, other.mpz);
 }
 
