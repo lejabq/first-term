@@ -13,7 +13,7 @@ _start:
                 mov             rdi, rsp
                 mov             rcx, 128
                 call            read_long
-                lea             rdi, [rsp + 128 * 8]
+                lea             rdi, [rsp + 127 * 8]
                 call            read_long
                 mov             rdi, rsp
                 lea             rsi, [rsp + 128 * 8]
